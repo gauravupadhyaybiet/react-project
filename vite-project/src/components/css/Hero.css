@@ -1,0 +1,25 @@
+.hero-section {
+  width: 100vw;
+  background-color: #ffffff;
+  overflow: hidden;
+  padding: 60px 0;
+}
+
+.rgb-glow {
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 0 20px #ff00ff33, 0 0 40px #00ffff33, 0 0 60px #ff00ff33;
+}
+
+.rgb-glow:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px #ff00ff66, 0 0 50px #00ffff66, 0 0 70px #ff00ff66;
+}
+
+@media (max-width: 768px) {
+  .hero-section { padding: 40px 15px; }
+}
+
+
+
+
+
